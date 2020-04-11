@@ -1,0 +1,47 @@
+{
+  "name": "scrollingsvg",
+  "version": "1.0.1",
+  "description": "A react component for SVG animations to begin once the image has been scrolled onto the screen",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graham768/scrollingsvg.git"
+  },
+  "keywords": [
+    "Scrolling",
+    "SVG",
+    "Animation",
+    "onscroll",
+    "css",
+    "animate",
+    "react"
+  ],
+  "author": "Ben Graham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graham768/scrollingsvg/issues"
+  },
+  "homepage": "https://github.com/graham768/scrollingsvg#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "webpack": "^4.42.1"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
